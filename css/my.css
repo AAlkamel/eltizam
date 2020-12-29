@@ -42,6 +42,7 @@ body {
 
 .m-menu {
 	position: fixed;
+	overflow: scroll;
 	height: 100vh;
 	width: 300px;
 	top: 0;
@@ -363,6 +364,8 @@ footer ul {
 }
 .login,
 .signup {
+	padding-bottom: 50px;
+	overflow: scroll;
 	height: 100vh;
 	width: 100%;
 	background-image: url(../images/bg4.png);
@@ -426,5 +429,8 @@ footer ul {
 		margin-top: 500px;
 		margin-bottom: 30px;
 		padding-right: 15px;
+	}
+	#l-name {
+		margin-top: 0;
 	}
 }

@@ -126,22 +126,35 @@ header .menu ul {
 }
 header .menu ul li {
 	display: inline-block;
-	margin-left: 5px;
 	color: #02559c;
 }
 
 header .menu ul li:first-of-type {
 	margin-left: 15px;
+	display: none;
 }
 
 header .menu ul li a {
 	color: #02559c;
+	font-size: 14px;
+	padding: 5px;
+	background-color: transparent;
 	transition: ease-out .3s;
 }
 
+input::placeholder {
+	font-size: 14px;
+}
+
+header .menu ul li.active a {
+	color: #fa9746;
+	text-decoration: none;
+	background-color: #ffffff9e;
+}
 header .menu ul li a:hover {
 	color: #fa9746;
 	text-decoration: none;
+	background-color: #ffffff9e;
 }
 .logo {
 	position: absolute;
@@ -421,6 +434,12 @@ footer ul {
 	border-color: #f29c55;
 }
 @media only screen and (max-width: 768px) {
+	.logo {
+		position: absolute;
+		left: 3%;
+		top: 30px;
+		width: 120px;
+	}
 	.s1::after {
 		width: 0;
 		height: 0;
@@ -433,4 +452,12 @@ footer ul {
 	#l-name {
 		margin-top: 0;
 	}
+	header .menu ul li.tog {
+		display: none;
+	}
+	header .menu ul li:first-of-type {
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 576px) {
 }

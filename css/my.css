@@ -486,9 +486,23 @@ textarea {
 		height: 0;
 	}
 	.title {
-		margin-top: 500px;
-		margin-bottom: 30px;
+		margin-top: 31px;
+		margin-bottom: 5px;
 		padding-right: 15px;
+	}
+	.illstration {
+		position: absolute;
+		right: 50%;
+		transform: translatex(50%);
+		min-width: 255px;
+		top: 25px;
+		max-width: 490px;
+	}
+	.title h1 {
+		font-size: 18px;
+	}
+	.r-second {
+		padding-top: 0px;
 	}
 	#l-name {
 		margin-top: 0;

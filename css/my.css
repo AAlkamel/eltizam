@@ -475,6 +475,37 @@ textarea {
 	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 @media only screen and (max-width: 768px) {
+	.us ul li {
+		font-size: 14px;
+		margin-bottom: 4px;
+	}
+	.us p {
+		font-size: 14px;
+	}
+	.us h3 {
+		font-size: 20px;
+		margin-top: 15px;
+	}
+	.us {
+		padding-top: 0px;
+	}
+	.r-third h5 {
+		position: absolute;
+		top: -27px;
+		right: 50px;
+		background-color: #fff;
+		padding: 5px 21px;
+		border-radius: 7px;
+		border: solid 1px #eee;
+		color: #02559c;
+		font-size: 16px;
+	}
+	.footer ul li a {
+		margin-left: 3px;
+		color: #fff;
+		font-size: 13px;
+		padding: 0 5px;
+	}
 	.logo {
 		position: absolute;
 		left: 3%;

@@ -201,7 +201,7 @@ header .menu ul li a:hover {
 .illstration {
 	position: absolute;
 	right: 65px;
-	top: 0;
+	top: 25px;
 	max-width: 488px;
 }
 
@@ -215,7 +215,7 @@ header .menu ul li a:hover {
 
 .title {
 	height: 285px;
-	margin-top: 75px;
+	margin-top: 85px;
 	text-align: center;
 	margin-bottom: 200px;
 	padding-right: 64px;
@@ -436,6 +436,28 @@ footer ul {
 	color: #fff;
 	background-color: #1769b1;
 	border-color: #f29c55;
+}
+.us {
+	direction: rtl;
+	text-align: right;
+	padding-top: 72px;
+}
+.us h3 {
+	color: #02559c;
+	font-size: 25px;
+	margin-top: 28px;
+}
+.us p {
+	font-size: 18px;
+	color: #646e84;
+}
+.us ul {
+	list-style: none;
+}
+.us ul li {
+	font-size: 18px;
+	color: #646e84;
+	margin-bottom: 5px;
 }
 @media only screen and (max-width: 768px) {
 	.logo {
